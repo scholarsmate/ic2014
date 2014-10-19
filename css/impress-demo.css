@@ -185,9 +185,17 @@ a:focus {
 
     Basically we remove the margin and make inactive steps a little bit transparent.
 */
+.impress-enabled .step.past.iav {
+    opacity 0.3;
+}
+
+.impress-enabled .step.future.iav {
+    opacity 0.3;
+}
+
 .impress-enabled .step {
     margin: 0;
-    opacity: 0.3;
+    opacity: 0.5;
 
     -webkit-transition: opacity 1.5s;
     -moz-transition:    opacity 1.5s;
