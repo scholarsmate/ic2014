@@ -195,13 +195,21 @@ a:focus {
 
 .impress-enabled .step {
     margin: 0;
-    opacity: 0.5;
+    opacity: 0;
 
     -webkit-transition: opacity 1.5s;
     -moz-transition:    opacity 1.5s;
     -ms-transition:     opacity 1.5s;
     -o-transition:      opacity 1.5s;
     transition:         opacity 1.5s;
+}
+
+.impress-enabled .step.alwaysthere.past {
+    opacity: 1.0;
+}
+
+.impress-enabled .step.iav.future {
+    opacity: 0.3;
 }
 
 .impress-enabled .step.active { opacity: 1 }
