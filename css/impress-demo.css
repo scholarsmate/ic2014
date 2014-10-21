@@ -497,69 +497,78 @@ a:hover, a:focus {
 }
 
 #seed {
-    width: 1600px;
+  width: 1600px;
 }
+
 #seed.present .seed1 {
   color: red;
 }
-#seed.present .seed2{
-    color: red;
+
+#seed.present .seed2 {
+  color: red;
   -webkit-transition: 5s;
   -moz-transition: 5s;
   -ms-transition: 5s;
   -o-transition: 5s;
   transition: 5s;
 }
-#seed.present .seed3{
-    color: red;
+
+#seed.present .seed3 {
+  color: red;
   -webkit-transition: 10s;
   -moz-transition: 10s;
   -ms-transition: 10s;
   -o-transition: 10s;
   transition: 10s;
 }
-#seed.present .seed4{
-    color: red;
+
+#seed.present .seed4 {
+  color: red;
   -webkit-transition: 15s;
   -moz-transition: 15s;
   -ms-transition: 15s;
   -o-transition: 15s;
   transition: 15s;
 }
-#seed.present .seed5{
-    color: red;
+
+#seed.present .seed5 {
+  color: red;
   -webkit-transition: 20s;
   -moz-transition: 20s;
   -ms-transition: 20s;
   -o-transition: 20s;
   transition: 20s;
 }
-#seed.present .seed6{
-    color: red;
+
+#seed.present .seed6 {
+  color: red;
   -webkit-transition: 25s;
   -moz-transition: 25s;
   -ms-transition: 25s;
   -o-transition: 25s;
   transition: 25s;
 }
-#seed.present .seed7{
-    color: red;
+
+#seed.present .seed7 {
+  color: red;
   -webkit-transition: 30s;
   -moz-transition: 30s;
   -ms-transition: 30s;
   -o-transition: 30s;
   transition: 30s;
 }
-#seed.present .seed8{
-    color: red;
+
+#seed.present .seed8 {
+  color: red;
   -webkit-transition: 35s;
   -moz-transition: 35s;
   -ms-transition: 35s;
   -o-transition: 35s;
   transition: 35s;
 }
-#seed.present .seed9{
-    color: red;
+
+#seed.present .seed9 {
+  color: red;
   -webkit-transition: 40s;
   -moz-transition: 40s;
   -ms-transition: 40s;
@@ -580,7 +589,7 @@ a:hover, a:focus {
 }
 
 #itinerary.present h2 {
-    opacity: 1;
+  opacity: 1;
   -webkit-transition: 5s;
   -moz-transition: 5s;
   -ms-transition: 5s;
@@ -671,6 +680,49 @@ a:hover, a:focus {
   -ms-transition: 9s;
   -o-transition: 9s;
   transition: 9s;
+}
+
+.vennnca {
+  background-color: LightBlue;
+  float: left;
+  width: 400px;
+  height: 400px;
+  border-radius: 400px;
+  border: 3px solid DarkRed;
+  color: #666;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 400px;
+  font-weight: bold;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.vennwptext::before {
+  content: 'DMarcate';
+  position: absolute;
+  color: #444;
+  left: 16px;
+  font-size: 22px;
+}
+
+.vennwptext {
+  float: left;
+  width: 400px;
+  height: 400px;
+  border-radius: 400px;
+  border: 3px solid DarkBlue;
+  color: #666;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 400px;
+  font-weight: bold;
+  font-family: sans-serif;
+  position: relative;
+  background-color: rgba(255, 128, 114, 0.5);
+  margin-left: -150px;
 }
 
 /*
