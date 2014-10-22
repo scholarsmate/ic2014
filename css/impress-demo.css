@@ -607,7 +607,7 @@ a:hover, a:focus {
 }
 
 #itinerary.present .organization {
-  color: brown;
+  color: green;
   opacity: 1;
   -webkit-transition: 9s;
   -moz-transition: 9s;
@@ -645,7 +645,7 @@ a:hover, a:focus {
 }
 
 #itinerary.present .date {
-  color: green;
+  color: purple;
   -webkit-transition: 9s;
   -moz-transition: 9s;
   -ms-transition: 9s;
@@ -664,7 +664,7 @@ a:hover, a:focus {
 }
 
 #itinerary.present .time {
-  color: purple;
+  color: #8066B3;
   -webkit-transition: 9s;
   -moz-transition: 9s;
   -ms-transition: 9s;
