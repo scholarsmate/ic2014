@@ -186,6 +186,10 @@ a:hover, a:focus {
 
 }
 
+.impress-enabled .step.stickaround.past {
+  opacity: 1.0;
+}
+
 .impress-enabled .step {
   margin: 0;
   opacity: 0;
@@ -194,10 +198,6 @@ a:hover, a:focus {
   -ms-transition: opacity 1.5s;
   -o-transition: opacity 1.5s;
   transition: opacity 1.5s;
-}
-
-.impress-enabled .step.alwaysthere.past {
-  opacity: 1.0;
 }
 
 .impress-enabled .step.iav.future {
